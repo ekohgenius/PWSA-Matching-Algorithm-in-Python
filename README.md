@@ -15,8 +15,8 @@ design an automated system that can be used to efficiently allocate corps member
 36 states in Nigeria, based on their choices.
 What you will be provided
 A dataset containing the following:
-(i) information of corp members C = fc1; c2; : : : ; c1000g,
-(ii) six list of states that each ci 2 C would like to be assigned to, ranked according to order of
+(i) information of corp members C = {c1; c2; : : : ; c1000},
+(ii) six list of states that each ci is an element of C would like to be assigned to, ranked according to order of
 preference (that is, first choice, second choice, and so on).
 You have also been told that the maximum number of corp members that can be allocated to each
 state is 30. For clarification, each line in the txt file is read  as follows: Corp member 1 prefers Adamawa to Niger, and she prefers Niger to Zamfara, and so on.. Corp member 2 prefers Benue to Borno, and she prefers Borno to Katsina, and so on..
